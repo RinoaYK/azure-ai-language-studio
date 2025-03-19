@@ -1,0 +1,311 @@
+{
+    "documents": [
+        {
+            "id": "id__1239",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.63,
+                "neutral": 0.04,
+                "negative": 0.33
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.43,
+                        "neutral": 0.57,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 17,
+                    "text": "\"Fonte: confia!\"  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.84,
+                        "negative": 0.15
+                    },
+                    "offset": 17,
+                    "length": 75,
+                    "text": "\"No início não tava entendendo, e no final parecia que eu tava no início.\"  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.87,
+                        "neutral": 0.12,
+                        "negative": 0.01
+                    },
+                    "offset": 92,
+                    "length": 45,
+                    "text": "\"O talento tá no sangue, só falta circular.\"  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.47,
+                        "neutral": 0.53,
+                        "negative": 0.01
+                    },
+                    "offset": 137,
+                    "length": 30,
+                    "text": "\"É sobre isso e tá tudo bem.\"  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0,
+                        "negative": 0.98
+                    },
+                    "offset": 167,
+                    "length": 97,
+                    "text": "\"O cliente estava insatisfeito com o atendimento, mas a equipe resolveu o problema rapidamente.\"  ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 208,
+                            "length": 11,
+                            "text": "atendimento",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 189,
+                            "length": 12,
+                            "text": "insatisfeito",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.92,
+                        "neutral": 0.08,
+                        "negative": 0
+                    },
+                    "offset": 264,
+                    "length": 70,
+                    "text": "\"A entrega foi muito rápida e o produto superou minhas expectativas!\"  ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 272,
+                            "length": 7,
+                            "text": "entrega",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 269,
+                            "length": 10,
+                            "text": "\"A entrega",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 290,
+                            "length": 6,
+                            "text": "rápida",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 334,
+                    "length": 69,
+                    "text": "\"Estou muito feliz com a compra e provavelmente comprarei novamente.  ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 365,
+                            "length": 6,
+                            "text": "compra",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 353,
+                            "length": 5,
+                            "text": "feliz",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0,
+                        "negative": 0.01
+                    },
+                    "offset": 403,
+                    "length": 75,
+                    "text": "\"O aplicativo é intuitivo e fácil de usar, mas poderia ter mais recursos.\"  ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 413,
+                            "length": 10,
+                            "text": "aplicativo",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 426,
+                            "length": 9,
+                            "text": "intuitivo",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 438,
+                            "length": 13,
+                            "text": "fácil de usar",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 478,
+                    "length": 76,
+                    "text": "\"Infelizmente, o produto chegou danificado e não havia ninguém para ajudar.\"",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 503,
+                            "length": 7,
+                            "text": "produto",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/8/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 518,
+                            "length": 10,
+                            "text": "danificado",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}
